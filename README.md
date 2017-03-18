@@ -4,7 +4,7 @@ To use the repository template, either [fork](https://help.github.com/articles/f
 
 MIT License
 
-Copyright (c) [2017] [Hunt Allcott]
+Copyright (c) 2017 Hunt Allcott
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
