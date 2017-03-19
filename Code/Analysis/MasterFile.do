@@ -15,9 +15,9 @@ clear all
 set more off
 
 ** Set directories
-* Here set the location of each user's Dropbox/Analysis folder.
+* Here set the location of each user's Dropbox/Externals folder.
 if "`c(username)'"=="Hunt" {
-	global dropbox = "C:/Users/Hunt/Dropbox/template_ha/Analysis" 
+	global dropbox = "C:/Users/Hunt/Dropbox/template_ha/Externals" 
 }
 
 ** Set any other locals and globals 

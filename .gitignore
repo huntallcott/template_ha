@@ -1,0 +1,16 @@
+user-config.yaml
+*.pyc
+*.lyx~
+*.lyx#
+*.Rhistory
+*.Rapp.history
+*.DS_Store
+*.aux
+*.fls
+*.lof
+*.lot
+*.nav
+*.snm
+*.toc
+*.out
+*.svn
