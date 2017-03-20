@@ -28,4 +28,5 @@ if "`c(username)'"=="Hunt" {
 ************************************
 * Call data prep and analysis files
 ************************************
+include Code/Build/DataPrep.do
 include Code/Analysis/Example_CreateFigure.do
