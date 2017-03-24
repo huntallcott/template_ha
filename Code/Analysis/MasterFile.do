@@ -19,6 +19,9 @@ set more off
 if "`c(username)'"=="Hunt" {
 	global dropbox = "C:/Users/Hunt/Dropbox/template_ha/Externals" 
 }
+if "`c(username)'"=="josh" {
+    global dropbox = "~/Dropbox/template_ha/Externals"
+}
 
 ** Set any other locals and globals 
 
@@ -28,5 +31,6 @@ if "`c(username)'"=="Hunt" {
 ************************************
 * Call data prep and analysis files
 ************************************
+
 include Code/Build/DataPrep.do
 include Code/Analysis/Example_CreateFigure.do
