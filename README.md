@@ -2,6 +2,14 @@
 
 To use the repository template, either [fork](https://help.github.com/articles/fork-a-repo/) or [clone](https://help.github.com/articles/duplicating-a-repository/) into a new GitHub repository.
 
+Specifically, to clone:
+1. Go to your GitHub home page, e.g. https://github.com/huntallcott
+2. Click on the "+" sign to Create New Repository, called ProjectName
+3. Open Git Bash
+4. Type git clone --bare https://github.com/huntallcott/template_ha.git
+5. Type git push --mirror https://github.com/huntallcott/ProjectName
+6. Remove the old repository, by typing `cd..`, then `rm -rf template_ha.git`
+
 MIT License
 
 Copyright (c) 2017 Hunt Allcott
