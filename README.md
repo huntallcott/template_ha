@@ -6,10 +6,11 @@ Specifically, to clone:
 1. Go to your GitHub home page, e.g. https://github.com/huntallcott
 2. Click on the "+" sign to Create New Repository, called ProjectName
 3. Open Git Bash
-4. Type `git clone --bare https://github.com/huntallcott/template_ha.git`
-5. Type `cd template_ha.git`
-6. Type `git push --mirror https://github.com/huntallcott/ProjectName`
-7. Remove the old repository, by typing `cd..`, then `rm -rf template_ha.git`
+4. cd to the GitHub/ folder
+5. Type `git clone --bare https://github.com/huntallcott/template_ha.git`
+6. Type `cd template_ha.git`
+7. Type `git push --mirror https://github.com/huntallcott/ProjectName`
+8. Remove the old repository, by typing `cd..`, then `rm -rf template_ha.git`
 
 MIT License
 
